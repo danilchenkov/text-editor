@@ -62,8 +62,8 @@ function changeStyle() {
 
 function checkCurrentStyles() {
   if (document.querySelectorAll("button.active").length > 0) {
-    for (i = 0; i < $BTNS.length; i++) {
-      $BTNS[i].classList.remove("active");
+    for (i = 0; i < $btns.length; i++) {
+      $btns[i].classList.remove("active");
     }
   }
 
